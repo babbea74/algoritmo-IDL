@@ -1,7 +1,7 @@
 {
   "inputs": [
   {
-      "id": "T1 image",
+      "id": "T1_image",
       "inputType": "individual",
       "valueType": "value",
       "description": "T1 image",
@@ -12,7 +12,7 @@
       "target": "T1_data.tif"
  },
  {
-      "id": "T2 image",
+      "id": "T2_image",
       "inputType": "individual",
       "valueType": "value",
       "description": "T2 image",
@@ -34,7 +34,7 @@
       "target": "change.tif"
  },
  {
-      "id": "change 1sigma",
+      "id": "change_1sigma",
       "outputType": "individual",
       "valueType": "value",
       "description": "change 1sigma",
@@ -44,7 +44,7 @@
  }
  ,
  {
-      "id": "change 2sigma",
+      "id": "change_2sigma",
       "outputType": "individual",
       "valueType": "value",
       "description": "change 2sigma",
@@ -53,7 +53,7 @@
       "target": "change_2sigma.tif"
  },
     {
-      "id": "change 3sigma",
+      "id": "change_3sigma",
       "outputType": "individual",
       "valueType": "value",
       "description": "change 3sigma",
