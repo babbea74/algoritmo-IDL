@@ -6,4 +6,10 @@ if [ -d /tmp/.X11-unix ]; then
 fi
 vnc4server
 export DISPLAY=$HOSTNAME:1
-idl -vm=CCA_CHANGE_DETECTION_IDL_TOT.sav
+echo $DISPLAY
+idl -vm=CCA_CHANGE_DETECTION_IDL_TOT.sav &
+xte 'key Return'
+sleep 6
+xte 'key Return'
+sleep 35
+xte 'key Return'
