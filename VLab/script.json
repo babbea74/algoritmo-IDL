@@ -1,0 +1,14 @@
+{
+  "scripts": [
+    {
+      "repoPath": "run.sh",
+      "targetPath": "run.sh",
+      "pathType": "FILE"
+ },
+    {
+      "repoPath": "CCA_CHANGE_DETECTION_IDL_TOT.sav",
+      "targetPath": "CCA_CHANGE_DETECTION_IDL_TOT.sav",
+      "pathType": "FILE"
+ }
+  ]
+}
