@@ -1,23 +1,25 @@
 {
   "inputs": [
   {
-      "id": "T1 image",
+      "id": "T1_image",
       "inputType": "individual",
       "valueType": "value",
       "description": "T1 image",
       "name": "T2 image",
       "valueSchema": "url",
       "obligation": true,
+      "hasDefault": false,
       "target": "T1_data.tif"
  },
  {
-      "id": "T2 image",
+      "id": "T2_image",
       "inputType": "individual",
       "valueType": "value",
       "description": "T2 image",
       "name": "T2 image",
       "valueSchema": "url",
       "obligation": true,
+      "hasDefault": false,
       "target": "T2_data.tif"
  }
   ],
@@ -35,8 +37,8 @@
       "id": "change_1sigma",
       "outputType": "individual",
       "valueType": "value",
-      "description": "change_1sigma",
-      "name": "change_1sigma",
+      "description": "change 1sigma",
+      "name": "change 1sigma",
       "valueSchema": "url",
       "target": "change_1sigma.tif"
  }
@@ -45,8 +47,8 @@
       "id": "change_2sigma",
       "outputType": "individual",
       "valueType": "value",
-      "description": "change_2sigma",
-      "name": "change_2sigma",
+      "description": "change 2sigma",
+      "name": "change 2sigma",
       "valueSchema": "url",
       "target": "change_2sigma.tif"
  },
@@ -54,8 +56,8 @@
       "id": "change_3sigma",
       "outputType": "individual",
       "valueType": "value",
-      "description": "change_3sigma",
-      "name": "change_3sigma",
+      "description": "change 3sigma",
+      "name": "change 3sigma",
       "valueSchema": "url",
       "target": "change_3sigma.tif"
  }
