@@ -8,6 +8,7 @@
       "name": "T2 image",
       "valueSchema": "url",
       "obligation": true,
+      "hasDefault":false,
       "target": "T1_data.tif"
  },
  {
@@ -18,6 +19,7 @@
       "name": "T2 image",
       "valueSchema": "url",
       "obligation": true,
+      "hasDefault":false,
       "target": "T2_data.tif"
  }
   ],
