@@ -11,4 +11,4 @@ idl -vm=CCA_CHANGE_DETECTION_IDL_TOT.sav &
 xte 'key Return'
 sleep 6
 xte 'key Return'
-fg
+
