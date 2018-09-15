@@ -11,4 +11,5 @@ idl -vm=CCA_CHANGE_DETECTION_IDL_TOT.sav &
 xte 'key Return'
 xte 'key Return'
 xte 'key Return'
+ls -al
 
