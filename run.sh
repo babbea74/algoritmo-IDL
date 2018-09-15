@@ -6,14 +6,7 @@ if [ -d /tmp/.X11-unix ]; then
 fi
 vnc4server
 export DISPLAY=$HOSTNAME:1
-echo
-echo $DISPLAY
-echo 
-echo $PATH
-echo
-echo "DIRECTORY /usr/local/exelis/idl85/bin:"
-ls -al /usr/local/exelis/idl85/bin
-echo
+export PATH=$PATH:/usr/local/exelis/idl85/bin
 idl -vm=CCA_CHANGE_DETECTION_IDL_TOT.sav &
 xte 'key Return'
 sleep 6
