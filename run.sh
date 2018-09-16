@@ -7,6 +7,6 @@ fi
 vnc4server
 export DISPLAY=$HOSTNAME:1
 export PATH=$PATH:/usr/local/exelis/idl85/bin
-idl -vm=CCA_CHANGE_DETECTION_IDL_TOT.sav &
-xte 'sleep 30' 'key Return'
+xte 'sleep 30' 'key Return' &
+idl -vm=CCA_CHANGE_DETECTION_IDL_TOT.sav 
 
