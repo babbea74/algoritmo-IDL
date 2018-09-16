@@ -9,5 +9,4 @@ export DISPLAY=$HOSTNAME:1
 export PATH=$PATH:/usr/local/exelis/idl85/bin
 idl -vm=CCA_CHANGE_DETECTION_IDL_TOT.sav &
 xte 'sleep 6' 'key Return'
-xte 'sleep 40' 'key Return'
 
