@@ -12,9 +12,4 @@ xte 'key Return'
 echo
 echo 'primo invio'
 echo
-sleep 6
-xte 'key Return'
-echo 
-echo 'secondo invio'
-echo
 
