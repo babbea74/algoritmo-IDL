@@ -17,8 +17,4 @@ xte 'key Return'
 echo 
 echo 'secondo invio'
 echo
-sleep 35
-xte 'key Return'
-echo
-echo 'terzo invio'
-echo
+
