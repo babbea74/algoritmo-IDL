@@ -1,11 +1,11 @@
 {
   "inputs": [
   {
-      "id": "T1_image",
+      "id": "T1_map",
       "inputType": "individual",
       "valueType": "value",
-      "description": "T1 image - description",
-      "name": "T2 image - name",
+      "description": "T1 image",
+      "name": "T1 map",
       "valueSchema": "url",
       "obligation": true,
       "hasDefault": false,
@@ -28,35 +28,35 @@
       "id": "change",
       "outputType": "individual",
       "valueType": "value",
-      "description": "change - description",
+      "description": "change",
       "name": "change - name",
       "valueSchema": "url",
       "target": "change.tif"
  },
  {
-      "id": "change_1sigma",
+      "id": "change_TH_1sigma",
       "outputType": "individual",
       "valueType": "value",
-      "description": "change 1sigma",
-      "name": "change 1sigma",
+      "description": "change TH-1sigma",
+      "name": "change TH-1sigma",
       "valueSchema": "url",
       "target": "change_1sigma.tif"
  }
  ,
  {
-      "id": "change_2sigma",
+      "id": "change_TH_2sigma",
       "outputType": "individual",
       "valueType": "value",
-      "description": "change 2sigma",
+      "description": "change TH-2sigma",
       "name": "change 2sigma",
       "valueSchema": "url",
       "target": "change_2sigma.tif"
  },
     {
-      "id": "change_3sigma",
+      "id": "change_TH_3sigma",
       "outputType": "individual",
       "valueType": "value",
-      "description": "change 3sigma",
+      "description": "change TH-3sigma",
       "name": "change 3sigma",
       "valueSchema": "url",
       "target": "change_3sigma.tif"
